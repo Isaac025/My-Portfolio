@@ -1,0 +1,134 @@
+import React from "react";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import io from "../../assets/logo.png";
+
+const Footer = () => {
+  return (
+    <motion.div
+      className="w-full"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      <div className="layout">
+        <div className="flex flex-col gap-5">
+          {/* Top Row */}
+          <motion.div
+            className="flex flex-col md:flex-row justify-between items-center gap-[5%] p-2"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <motion.div
+              className="w-[20%] lg:w-[40%]"
+              whileHover={{ scale: 1.05 }}
+            >
+              <Link to={"/"}>
+                {" "}
+                <img src={io} alt="isaac" className="w-[60px] object-cover" />
+              </Link>
+            </motion.div>
+
+            <motion.div
+              className="w-[20%] lg:w-[30%] flex flex-col md:flex-row items-center gap-4 text-[white] text-[16px] my-5 md:my-0"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
+            >
+              <p>+2348118796745</p>
+              <p>akanoisaac83@gmail.com</p>
+            </motion.div>
+
+            <motion.div
+              className="w-[30%] lg:w-[10%] flex gap-3 justify-center items-center md:justify-end text-white"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.3, duration: 0.6 }}
+            >
+              <motion.a
+                href="https://github.com/Isaac025"
+                target="blank"
+                className="w-[30px] h-[30px]"
+                whileHover={{ scale: 1.2, rotate: 10, color: "#05f8afd2" }}
+              >
+                <FaGithub className="w-[30px] h-[30px]" />
+              </motion.a>
+              <motion.a
+                href="https://x.com/bradycrypt"
+                target="blank"
+                className="w-[30px] h-[30px]"
+                whileHover={{ scale: 1.2, rotate: -10, color: "#05f8afd2" }}
+              >
+                {" "}
+                <FaXTwitter className="w-[30px] h-[30px]" />
+              </motion.a>
+              <motion.a
+                href="https://linkedin.com/in/akano-isaac-422475371"
+                target="blank"
+                whileHover={{ scale: 1.2, rotate: 10, color: "#05f8afd2" }}
+              >
+                {" "}
+                <FaLinkedinIn className="w-[30px] h-[30px]" />
+              </motion.a>
+            </motion.div>
+          </motion.div>
+
+          <hr className="border-[white] my-5" />
+
+          {/* Bottom Row */}
+          <motion.div
+            className="flex flex-col md:flex-row justify-between items-center"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <motion.div className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 lg:gap-20 items-center text-[white] text-[16px]">
+              <Link to={"/"}>
+                <motion.p whileHover={{ scale: 1.1, color: "#05f8afd2" }}>
+                  Home
+                </motion.p>
+              </Link>
+              <Link to={"/about"}>
+                <motion.p whileHover={{ scale: 1.1, color: "#05f8afd2" }}>
+                  About
+                </motion.p>
+              </Link>
+              <Link to={"/tech-stack"}>
+                <motion.p whileHover={{ scale: 1.1, color: "#05f8afd2" }}>
+                  Tech Stack
+                </motion.p>
+              </Link>
+              <Link to={"/projects"}>
+                <motion.p whileHover={{ scale: 1.1, color: "#05f8afd2" }}>
+                  Projects
+                </motion.p>
+              </Link>
+              <Link to={"/contact"}>
+                <motion.p whileHover={{ scale: 1.1, color: "#05f8afd2" }}>
+                  Contact
+                </motion.p>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              className="mt-10 md:mt-0"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
+            >
+              <p className="text-white text-[16px] font-[500]">
+                &copy; 2025 Akano I. Olayiwola
+              </p>
+            </motion.div>
+          </motion.div>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Footer;
