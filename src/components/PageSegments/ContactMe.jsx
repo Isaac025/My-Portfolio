@@ -73,7 +73,9 @@ const ContactMe = () => {
                 <p className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]">
                   Say hello at{" "}
                   <span className="text-[#ffffff] border-b-[1px] border-[#05f8afd2]">
-                    younqsheyex@gmail.com
+                    <a href="mailto:akanoisaac83@gmail.com">
+                      akanoisaac83@gmail.com
+                    </a>
                   </span>
                 </p>
                 <p className="my-5 font-[400] text-[16px] lg:text-[18px] text-[#C7C7C7]">
