@@ -21,6 +21,7 @@ import quickBlog from "../src/assets/quickBlog.png";
 import fiftan from "../src/assets/fiftan.png";
 import todo from "../src/assets/todo.png";
 import jadoo from "../src/assets/jadoo.png";
+import resume from "../src/assets/resume.png";
 
 export const Tech = [
   htmllogo,
@@ -43,7 +44,7 @@ export const projects = [
     type: "Web Application",
     title: "TORRI-GATE",
     details:
-      " Full Web project to ease and bridge the app betwen landkords and tennats.",
+      " Full Stack Web project to ease and bridge the app between landlords and tenants.",
     Tech: [
       "React.js",
       "TailwindCSS",
@@ -132,6 +133,24 @@ export const projects = [
     git: "https://github.com/Tobak95/Event-Frontend",
     tag: "Conceptual Work",
   },
+
+  {
+    image: resume,
+    type: "Web Application",
+    title: "ResumeAI",
+    details: "Crafting AI-powered resumes for career success",
+    Tech: [
+      "React.js",
+      "TailwindCSS",
+      "Javascript, Node.js, MongoDB, OpenAI API",
+    ],
+    year: "2026",
+    role: "Full-Stack Developer",
+    live: "https://resumebuilder-gamma-ten.vercel.app/",
+    git: "https://github.com/Isaac025/Resume-Builder-Backend",
+    tag: "Conceptual Work",
+  },
+
   {
     image: movie,
     type: "Landing Page",
@@ -242,6 +261,15 @@ export const work = [
     date: "Aug 2025 - Oct 2025",
     type: "Internship",
   },
+
+  {
+    position: "Junior Frontend Developer",
+    job: "Trueminds Innovation Ltd",
+    location: "Remote",
+    date: "Feb 2026 - Present",
+    type: "Internship",
+  },
+
   // {
   //   position: "Junior Web Developer",
   //   job: "IonPixelz Web Solutions",

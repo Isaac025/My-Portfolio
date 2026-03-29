@@ -15,19 +15,19 @@ const ContactMe = () => {
   const social = [
     {
       icon: <FaLinkedinIn size={30} />,
-      to: "https://www.linkedin.com/in/younqsheyex-seyi-lawrence-585b6b272/",
+      to: "https://github.com/Isaac025",
     },
     {
       icon: <FaGithub size={30} />,
-      to: "https://github.com/YounQsheyex",
+      to: "https://github.com/Isaac025",
     },
     {
       icon: <FaXTwitter size={30} />,
-      to: "https://x.com/younqsheyex?s=21&t=u0zk0jI0voqCcJ_BaBInVQ",
+      to: "https://x.com/0xIsaac8x",
     },
     {
       icon: <BsInstagram size={30} />,
-      to: "https://www.instagram.com/younqsheyex?igsh=bWR0bzMyeG81Yng5&utm_source=qr",
+      to: "https://www.instagram.com/sonofthemessiah0/",
     },
   ];
   const {
@@ -82,7 +82,7 @@ const ContactMe = () => {
                   For more info, here’s my{" "}
                   <span className="text-[#ffffff] border-b-[1px] border-[#05f8afd2]">
                     <a
-                      href="https://drive.google.com/file/d/1Xvizd8sMbaRDr0ewe1SsrQSpkVwRA3fu/view?usp=sharing"
+                      href="https://docs.google.com/document/d/1-Ptj6r_j5CQKOlwGGq93CtcECFL_gw1K/edit?usp=drive_link&ouid=104822732303990502185&rtpof=true&sd=true"
                       target="blank"
                     >
                       resume

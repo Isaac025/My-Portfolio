@@ -82,7 +82,7 @@ const NavBar = () => {
                 <FaGithub className="w-[30px] h-[30px]" />
               </motion.a>
               <motion.a
-                href="https://x.com/bradycrypt"
+                href="https://x.com/0xIsaac8x"
                 target="blank"
                 className="w-[30px] h-[30px]"
                 whileHover={{ scale: 1.2, rotate: -10, color: "#05f8afd2" }}
@@ -166,7 +166,7 @@ const NavBar = () => {
               <FaGithub className="w-[30px] h-[30px]" />
             </motion.a>
             <motion.a
-              href="https://x.com/bradycrypt"
+              href="https://x.com/0xIsaac8x"
               target="blank"
               className="w-[30px] h-[30px]"
               whileHover={{ scale: 1.2, rotate: -10, color: "#05f8afd2" }}
