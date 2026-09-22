@@ -39,7 +39,7 @@ const Hero = () => {
             </h4>
             <div className="mt-5 bg-gradient-to-r from-[#02f817] via-[#09b473] to-[#028313] w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full p-2 flex justify-center items-center mx-auto lg:mx-0 mb-5 ">
               <a
-                href="https://docs.google.com/uc?export=download&id=1w0PYiOtMjSf9MhEgx8RbY9I1yDPR7h9C"
+                href="https://drive.google.com/file/d/1xz-wJeCQXDr-Stum18xaHo2MzplYQsm6btHins4Z4EA/view?usp=sharing"
                 target="_blank"
               >
                 <button className="flex items-center gap-2 hover:gap-0 hover:justify-between cursor-pointer group transition-all duration-300">

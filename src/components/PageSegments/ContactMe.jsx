@@ -82,7 +82,7 @@ const ContactMe = () => {
                   For more info, here’s my{" "}
                   <span className="text-[#ffffff] border-b-[1px] border-[#05f8afd2]">
                     <a
-                      href="https://docs.google.com/uc?export=download&id=1w0PYiOtMjSf9MhEgx8RbY9I1yDPR7h9C"
+                      href="https://drive.google.com/file/d/1xz-wJeCQXDr-Stum18xaHo2MzplYQsm6btHins4Z4EA/view?usp=sharing"
                       target="_blank"
                     >
                       resume
