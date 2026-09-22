@@ -121,7 +121,7 @@ const Footer = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
             >
               <p className="text-white text-[16px] font-[500]">
-                &copy; 2025 Akano I. Olayiwola
+                &copy; 2026 Akano I. Olayiwola
               </p>
             </motion.div>
           </motion.div>

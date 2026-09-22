@@ -60,19 +60,6 @@ export const projects = [
     tag: "Conceptual Work",
   },
   {
-    image: shortly,
-    type: "Landing Page",
-    title: "Landing page for shortening of any Url",
-    details:
-      "An innovative  homepage, Turn long, messy links into short, shareable URLs in seconds.",
-    Tech: ["React.js", "TailwindCSS", "Javascript"],
-    year: "2025",
-    role: "Front-end Developer",
-    live: "https://shortly-iota-coral.vercel.app/",
-    git: "https://github.com/Isaac025/shortly",
-  },
-
-  {
     image: fiftan,
     type: "E-commerce Web Application",
     title: "FIFTAN",
@@ -93,26 +80,6 @@ export const projects = [
     tag: "Conceptual Work",
   },
 
-  {
-    image: beta,
-    type: "Web Application",
-    title: "BETA-HOUSE",
-    details:
-      "At BETA-HOUSE, we make finding your dream home simple and stress-free. Our platform offers a carefully curated selection of properties tailored .",
-    Tech: [
-      "React.js",
-      "TailwindCSS",
-      "Javascript",
-      "Node.js",
-      "MongoDB",
-      "Express",
-    ],
-    year: "2025",
-    role: "Full-Stack Developer",
-    live: "https://beta-house-opal.vercel.app/",
-    git: "https://github.com/Isaac025/BetaHouse",
-    tag: "Conceptual Work",
-  },
   {
     image: eventra,
     type: "Web Application",
@@ -152,18 +119,6 @@ export const projects = [
   },
 
   {
-    image: movie,
-    type: "Landing Page",
-    title: "Landing page to showcasing movies",
-    details:
-      "A landing page showcasing featured movies, built to display dynamic content using API calls.",
-    Tech: ["CSS", "TailwindCSS", "Javascript"],
-    year: "2025",
-    role: "Front-end Developer",
-    live: "https://movie-app-phi-umber.vercel.app/",
-    git: "https://github.com/Isaac025/movie-app",
-  },
-  {
     image: taskduty,
     type: "Web Application",
     title: "TASK DUTY",
@@ -183,6 +138,28 @@ export const projects = [
     git: "https://github.com/Isaac025/TaskDuty-Backend",
     tag: "Conceptual Work",
   },
+
+  {
+    image: beta,
+    type: "Web Application",
+    title: "BETA-HOUSE",
+    details:
+      "At BETA-HOUSE, we make finding your dream home simple and stress-free. Our platform offers a carefully curated selection of properties tailored .",
+    Tech: [
+      "React.js",
+      "TailwindCSS",
+      "Javascript",
+      "Node.js",
+      "MongoDB",
+      "Express",
+    ],
+    year: "2025",
+    role: "Full-Stack Developer",
+    live: "https://beta-house-opal.vercel.app/",
+    git: "https://github.com/Isaac025/BetaHouse",
+    tag: "Conceptual Work",
+  },
+
   {
     image: quickBlog,
     type: "Web Application",
@@ -205,6 +182,19 @@ export const projects = [
   },
 
   {
+    image: shortly,
+    type: "Landing Page",
+    title: "Landing page for shortening of any Url",
+    details:
+      "An innovative  homepage, Turn long, messy links into short, shareable URLs in seconds.",
+    Tech: ["React.js", "TailwindCSS", "Javascript"],
+    year: "2025",
+    role: "Front-end Developer",
+    live: "https://shortly-iota-coral.vercel.app/",
+    git: "https://github.com/Isaac025/shortly",
+  },
+
+  {
     image: todo,
     type: "Web Application",
     title: "TODO NEXT APP",
@@ -216,6 +206,19 @@ export const projects = [
     live: "https://todo-next-app-orcin.vercel.app/",
     git: "https://github.com/Isaac025/Todo-nextApp",
     tag: "Conceptual Work",
+  },
+
+  {
+    image: movie,
+    type: "Landing Page",
+    title: "Landing page to showcasing movies",
+    details:
+      "A landing page showcasing featured movies, built to display dynamic content using API calls.",
+    Tech: ["CSS", "TailwindCSS", "Javascript"],
+    year: "2025",
+    role: "Front-end Developer",
+    live: "https://movie-app-phi-umber.vercel.app/",
+    git: "https://github.com/Isaac025/movie-app",
   },
 
   {
@@ -251,14 +254,13 @@ export const work = [
     position: "Junior Web Developer ",
     job: "Tech Studio Academy",
     location: "Lagos",
-    date: "May 2025 - Jul 2025",
-    type: "Internship",
+    date: "May 2024 - Jul 2024",
   },
   {
     position: "Junior Web Developer | Assistant team Lead",
     job: "Tech Studio Academy",
     location: "Lagos",
-    date: "Aug 2025 - Oct 2025",
+    date: "Aug 2024 - Oct 2024",
     type: "Internship",
   },
 
@@ -266,7 +268,7 @@ export const work = [
     position: "Junior Frontend Developer",
     job: "Trueminds Innovation Ltd",
     location: "Remote",
-    date: "Feb 2026 - Present",
+    date: "Feb 2025 - Apr 2026",
     type: "Internship",
   },
 
@@ -293,22 +295,22 @@ export const education = [
     year: "Nov. 2018 - August 2024",
     type: "Full Time",
   },
-  {
-    degree: "Cloud Computing",
-    school: "Huawei Certification",
-    year: "Nov 2022 - Jan 2023",
-    type: "Full Time",
-  },
-  {
-    degree: "CCNAv7 Introduction to Networks",
-    school: "Cisco Networking Academy",
-    year: "Nov 2022 - Jan 2023",
-    type: "Full Time",
-  },
-  {
-    degree: "Cisco IT Essentials",
-    school: "Cisco Networking Academy",
-    year: "May 2016 - Aug 2016",
-    type: "Full Time",
-  },
+  // {
+  //   degree: "Cloud Computing",
+  //   school: "Huawei Certification",
+  //   year: "Nov 2022 - Jan 2023",
+  //   type: "Full Time",
+  // },
+  // {
+  //   degree: "CCNAv7 Introduction to Networks",
+  //   school: "Cisco Networking Academy",
+  //   year: "Nov 2022 - Jan 2023",
+  //   type: "Full Time",
+  // },
+  // {
+  //   degree: "Cisco IT Essentials",
+  //   school: "Cisco Networking Academy",
+  //   year: "May 2016 - Aug 2016",
+  //   type: "Full Time",
+  // },
 ];

@@ -13,10 +13,10 @@ import { BsInstagram } from "react-icons/bs";
 
 const ContactMe = () => {
   const social = [
-    {
-      icon: <FaLinkedinIn size={30} />,
-      to: "https://github.com/Isaac025",
-    },
+    // {
+    //   icon: <FaLinkedinIn size={30} />,
+    //   to: "https://github.com/Isaac025",
+    // },
     {
       icon: <FaGithub size={30} />,
       to: "https://github.com/Isaac025",
@@ -82,15 +82,15 @@ const ContactMe = () => {
                   For more info, here’s my{" "}
                   <span className="text-[#ffffff] border-b-[1px] border-[#05f8afd2]">
                     <a
-                      href="https://docs.google.com/document/d/1-Ptj6r_j5CQKOlwGGq93CtcECFL_gw1K/edit?usp=drive_link&ouid=104822732303990502185&rtpof=true&sd=true"
-                      target="blank"
+                      href="https://docs.google.com/uc?export=download&id=1w0PYiOtMjSf9MhEgx8RbY9I1yDPR7h9C"
+                      target="_blank"
                     >
                       resume
                     </a>
                   </span>
                 </p>
               </div>
-              <div className="w-[224px] flex justify-between">
+              <div className="w-[224px] flex justify-between md:gap-2">
                 {social.map((d, i) => {
                   return (
                     <a

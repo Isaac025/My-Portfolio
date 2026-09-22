@@ -39,11 +39,11 @@ const Hero = () => {
             </h4>
             <div className="mt-5 bg-gradient-to-r from-[#02f817] via-[#09b473] to-[#028313] w-[212px] h-[48px] lg:w-[224px] lg:h-[54px] rounded-full p-2 flex justify-center items-center mx-auto lg:mx-0 mb-5 ">
               <a
-                href="https://docs.google.com/document/d/1-Ptj6r_j5CQKOlwGGq93CtcECFL_gw1K/edit?usp=drive_link&ouid=104822732303990502185&rtpof=true&sd=true"
-                target="blank"
+                href="https://docs.google.com/uc?export=download&id=1w0PYiOtMjSf9MhEgx8RbY9I1yDPR7h9C"
+                target="_blank"
               >
-                <button className="flex items-center  gap-2 hover:gap-0 hover:justify-between cursor-pointer group transition-all duration-300">
-                  <p className=" gap-[12px] font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]">
+                <button className="flex items-center gap-2 hover:gap-0 hover:justify-between cursor-pointer group transition-all duration-300">
+                  <p className="gap-[12px] font-[700] text-[14px] lg:text-[16px] text-[#0A0A0A]">
                     DOWNLOAD RESUME
                   </p>
                   <span className="w-[10px] h-[10px] bg-black rounded-full flex justify-center items-center group-hover:w-[40px] group-hover:h-[40px]">
